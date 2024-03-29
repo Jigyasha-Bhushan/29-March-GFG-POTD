@@ -1,1 +1,14 @@
-# 29-March-GFG-POTD
+class Solution {
+public:
+	bool isEularCircuitExist(int v, vector<int>adj[]){
+	    
+	    
+	     for(int i=0;i<v;i++){
+	        if(int(adj[i].size())%2==1) return false;
+	    }
+	    
+	    return true;
+	    
+	}
+
+};
